@@ -231,8 +231,15 @@ button {
     border-bottom: 1px solid #b9b9b9;
 }
 .logo {
-    width: 100%;
+    width: 170px;
+    background-size: contain;
     float: left;
+}
+
+.logoimage{
+    background: url("images/Logo.png") no-repeat scroll center;
+    width: 500px;
+    height: 140px;
 }
 .menu_main {
     font-size: 16px;
