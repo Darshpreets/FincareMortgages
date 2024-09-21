@@ -151,7 +151,7 @@ width: 30%;
 #my_slider a.carousel-control-prev { left: 440px; top: 110%;}
 .image_main { width: 44%; bottom: 70px; }
 .see_text { font-size: 16px; padding-top: 50px; }
-.image_1 { height: 500px; }
+.image_1 { height: 700px; }
 .image_0 { padding: 50px 50px 130px 50px; }
 .best_taital { width: 48%; }
 .lorem_text_1 {  padding-bottom: 30px; padding-top: 30px; }
@@ -207,7 +207,8 @@ width: 30%;
          padding-left: 15px;
     }
 
-.logo { width: 100%; }
+/*.logo { width: 100%; }*/
+.logo { width: 170px; }
 .header_section { background-size: cover; }
 .toggle_menu { top: 5px;}
 .padding_left_0 { padding-left: 15px; }
@@ -216,7 +217,8 @@ width: 30%;
 .contact_bt { width: 140px; margin-left: 10px; }
 .contact_bt { width: 140px; margin-left: 10px; }
 .more_bt { width: 140px; }
-.image_1 { padding-top: 30px; width: 100%; height: auto; }
+/*.image_1 { padding-top: 30px; width: 100%; height: auto; } */
+.image_1 { padding-top: 30px; width: 100px; height: auto; }
 .image_main { width: 50%; bottom: 70px; }
 .see_text { font-size: 14px; padding-top: 50px; }
 .image_0 { padding: 50px 50px 130px 50px; }
