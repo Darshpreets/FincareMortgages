@@ -442,6 +442,8 @@ button {
 .advisor_section{
     width: 100%;
     float: left;
+    margin-top: 40px;
+ 
 }
 
 .box_main{
