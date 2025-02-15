@@ -286,6 +286,7 @@ button {
     position: relative;
     left: 0;
     float: right;
+
 }
 .banner_section {
     width: 100%;
@@ -421,7 +422,6 @@ button {
 .advisor_section{
     width: 100%;
     float: left;
-    margin-top: 40px;
 }
 
 .what_text{
@@ -443,7 +443,6 @@ button {
     width: 100%;
     float: left;
     margin-top: 40px;
- 
 }
 
 .box_main{
@@ -959,4 +958,7 @@ input.mail_bt::placeholder {
 }
 .margin_top{
     margin-top: 90px;
+}
+.margin_top0{
+    margin-top: 20px;
 }
