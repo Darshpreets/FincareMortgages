@@ -1,0 +1,179 @@
+/* Image Responsiveness Fixes for Fincare Website */
+
+/* Global image responsiveness */
+img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* Logo specific fixes */
+.logo img {
+    width: 100%;
+    height: auto;
+    max-height: 100px;
+    object-fit: contain;
+    object-position: left center;
+}
+
+/* Banner/Hero image fixes */
+.image_1 {
+    width: 100%;
+    height: auto !important;
+    min-height: 300px;
+    max-height: 570px;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+}
+
+/* About section image */
+.image_8 img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 8px;
+    max-height: 400px;
+}
+
+/* Service icons - ensure they don't get cropped */
+.image_3,
+.image_4,
+.image_5 {
+    background-size: contain !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+}
+
+/* Portfolio/Gallery images */
+.image {
+    width: 100%;
+    height: auto;
+    min-height: 200px;
+    max-height: 270px;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* Container images */
+.container img,
+.container-fluid img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Carousel images */
+.carousel-item img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* Client/testimonial images */
+.image_16 img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 50%;
+    max-width: 80px;
+    max-height: 80px;
+}
+
+/* Responsive breakpoints */
+@media (max-width: 1199px) {
+    .image_1 {
+        min-height: 250px;
+        max-height: 450px;
+    }
+}
+
+@media (max-width: 991px) {
+    .image_1 {
+        min-height: 200px;
+        max-height: 350px;
+    }
+    
+    .image_8 img {
+        max-height: 280px;
+    }
+    
+    .image {
+        min-height: 180px;
+        max-height: 220px;
+    }
+}
+
+@media (max-width: 767px) {
+    .image_1 {
+        min-height: 180px;
+        max-height: 300px;
+    }
+    
+    .image_8 img {
+        max-height: 250px;
+    }
+    
+    .image {
+        min-height: 150px;
+        max-height: 180px;
+    }
+    
+    /* Smaller service icons */
+    .image_3,
+    .image_4,
+    .image_5 {
+        height: 70px !important;
+    }
+}
+
+@media (max-width: 575px) {
+    .image_1 {
+        min-height: 150px;
+        max-height: 250px;
+    }
+    
+    .image_8 img {
+        max-height: 200px;
+    }
+    
+    .logo img {
+        max-height: 45px;
+    }
+    
+    .image {
+        min-height: 120px;
+        max-height: 150px;
+    }
+    
+    /* Even smaller service icons on mobile */
+    .image_3,
+    .image_4,
+    .image_5 {
+        height: 60px !important;
+    }
+}
+
+/* Fix for images that might overflow containers */
+.row img,
+.col img,
+[class*="col-"] img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Prevent images from being too small */
+img[src*="icon"],
+img[src*="logo"] {
+    min-width: 20px;
+    min-height: 20px;
+}
+
+/* Ensure background images in divs are responsive */
+[style*="background-image"] {
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+}
